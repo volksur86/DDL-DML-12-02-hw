@@ -40,16 +40,25 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 
 <img width="1447" height="294" alt="image" src="https://github.com/user-attachments/assets/d54dda75-bb3d-49d4-98c2-b82cc78a2981" />
 
+распаковываем архив: unzip sakila-db.zip
+
 1.7. Восстановите дамп в базу данных.
 
+mysql> SOURCE /home/andreyvolk/sakila-db/sakila-schema.sql
 
+mysql> SOURCE /home/andreyvolk/sakila-db/sakila-data.sql
 
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
+
+<img width="947" height="861" alt="image" src="https://github.com/user-attachments/assets/2621bfab-c5b8-4517-a010-43448f95fdce" />
 
 Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.
 
 Задание 2
+
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
 
 Название таблицы | Название первичного ключа
 customer         | customer_id
+
+<img width="826" height="706" alt="image" src="https://github.com/user-attachments/assets/e99a26cb-7aeb-42ee-bb60-ec72e99e3ebc" />
