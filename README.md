@@ -28,11 +28,12 @@ mysql> FLUSH PRIVILEGES;
 
 1.6. Переподключитесь к базе данных от имени sys_temp.
 
-
+<img width="846" height="401" alt="image" src="https://github.com/user-attachments/assets/7e1e53bd-efd2-4606-a4dd-cfa90038dabf" />
 
 Для смены типа аутентификации с sha2 используйте запрос:
 
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
+
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
 
 1.7. Восстановите дамп в базу данных.
