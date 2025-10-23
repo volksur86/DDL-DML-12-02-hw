@@ -34,9 +34,15 @@ mysql> FLUSH PRIVILEGES;
 
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 
+<img width="1011" height="185" alt="image" src="https://github.com/user-attachments/assets/96ef0c50-c83e-479f-bafe-53721e4b07e1" />
+
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
 
+<img width="1447" height="294" alt="image" src="https://github.com/user-attachments/assets/d54dda75-bb3d-49d4-98c2-b82cc78a2981" />
+
 1.7. Восстановите дамп в базу данных.
+
+
 
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
 
