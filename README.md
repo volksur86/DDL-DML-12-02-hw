@@ -10,15 +10,25 @@
 
 1.2. Создайте учётную запись sys_temp.
 
-
+<img width="887" height="315" alt="image" src="https://github.com/user-attachments/assets/f39aecfe-73c7-4589-8e9b-b382c3f91be1" />
 
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
 
+<img width="495" height="245" alt="image" src="https://github.com/user-attachments/assets/040da4ae-72aa-453a-87c8-d2a71e150e2a" />
+
 1.4. Дайте все права для пользователя sys_temp.
+
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost';
+
+mysql> FLUSH PRIVILEGES;
 
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
 
+<img width="1770" height="713" alt="image" src="https://github.com/user-attachments/assets/c33e2084-49bb-4b85-a1a8-cb27d66d9483" />
+
 1.6. Переподключитесь к базе данных от имени sys_temp.
+
+
 
 Для смены типа аутентификации с sha2 используйте запрос:
 
